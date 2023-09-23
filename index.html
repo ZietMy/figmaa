@@ -4,18 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="menubar" class="menu">
-        <div id="menu-logo"></div>
+        <div id="menu-logo">
+            <div class="image"><img src="./img/logo_small.png" alt=""></div>
+        </div>
         <div id="menu-contact" class="menu-items">
-            <a href="!#">Contact Us</a>
+            <a href="#contact-section">Contact Us</a>
         </div>
         <div id="menu-about" class="menu-items">
-             <a href="!#">About</a>
+             <a href="#about-section">About</a>
         </div>
-        <div id="menu-home" class="menu-items"></div>
-            <a href="!#">Home</a>
+        <div id="menu-home" class="menu-items">
+            <a href="#home-section">Home</a>
+        </div>
     </div>
+
+    <div class="section" id="home-section">
+        
+        <div id="home-title">
+            <div class="normal-text">Towards</div>
+            <div class="heading-text">Excellence</div>
+            <div class="normal-text">Providing you with the best of our service.</div>
+        </div>
+    </div>
+
+    <div class="section" id="about-section">
+        <div id="about-title" class="heading-text">About Us</div>
+        <div id="about-sub-sections">
+            <div id="about-1">
+                <div class="about-sub-image"><img src="./img/about_1.png" alt=""></div>
+                <div class="about-sub-text-normal-text">
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                </div>
+            </div>
+            <div id="about-2">
+                <div class="about-sub-image"><img src="./img/about_2.png" alt=""></div>
+                <div class="about-sub-text-normal-text">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="contact-section">
+        <div id="contact-title" class="heading-text">Contact Us</div>
+        <div id="contact-sub-sections">
+            <div id="contact-phone">
+                <div class="image"><img src="./img/icon_phone.png" alt=""></div>
+                <p class="text">0987654321</p>
+            </div>
+            <div id="contact-email">
+                <div class="image"><img src="./img/icon_email.png" alt=""></div>
+                <p class="text">example@gmail.com</p>
+            </div>
+            <div id="contact-location">
+                <div class="image"><img src="./img/icon_location.png" alt=""></div>
+                <p class="text">Đa Nang, Viet Nam</p>
+            </div>
+            
+        </div>
+        <div id="footer">
+            <div id="footer-logo">
+                <img src="./img/logo_big.png" alt="">
+            </div>
+            <div id="footer-links" class="normal-text">
+                <p>Quick Links</p>
+                <a href="#home-section">Home</a>
+                <a href="#about-section">About</a>
+                <a href="#contact-section">Contact Us</a>
+            </div>
+        </div>
+    </div>
+     
 </body>
 </html>
